@@ -1,0 +1,31 @@
+.main-pic
+	margin: 0
+	margin: 11px 0 0 0
+	height: 450px
+	background: url(../img/main-pic.jpg)
+	background-position: center
+	background-size: cover
+	background-repeat: no-repeat
+	position: relative
+=titlePic($bgcolor,$textcolor)
+	display: inline-block
+	font-weight: bold
+	background: $bgcolor
+	color: $textcolor
+	letter-spacing: 2.4px
+	margin: 1px
+	padding: 8px 14px
+	font-size: 24px
+.main-title-block
+	position: absolute
+	top: 21%
+	left: 50%
+	margin-left: -36%
+	width: 400px
+	+phone
+		display: none
+.title-pic
+	+titlePic(#000, #fff)
+	opacity: 0.9
+
+
